@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Minecraft directories (for testing)
+minecraft/
+test-minecraft/
+.minecraft/
+
+# Test files
+test.js

@@ -1,0 +1,54 @@
+{
+    "name": "voidbeam-core",
+    "version": "1.1.0",
+    "description": "A NodeJS Minecraft launcher core library with support for offline, Microsoft, and Yggdrasil authentication",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "keywords": [
+        "minecraft",
+        "launcher",
+        "offline",
+        "microsoft",
+        "xbox",
+        "yggdrasil",
+        "mojang",
+        "authentication",
+        "minecraft-launcher",
+        "game-launcher",
+        "nodejs"
+    ],
+    "author": "candied apple",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/voidbeam-core.git"
+    },
+    "dependencies": {
+        "adm-zip": "^0.5.10",
+        "axios": "^1.6.0",
+        "checksum": "^1.0.0",
+        "electron": "^36.3.2",
+        "msmc": "^4.1.0",
+        "node-fetch": "^2.7.0",
+        "request": "^2.88.2",
+        "uuid": "^9.0.1"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "scripts": {
+        "test": "node test.js",
+        "example": "node example.js",
+        "example:basic": "node example.js basic",
+        "example:advanced": "node example.js advanced",
+        "example:auth": "node example-auth.js",
+        "example:auth:offline": "node example-auth.js offline",
+        "example:auth:microsoft": "node example-auth.js microsoft",
+        "example:auth:yggdrasil": "node example-auth.js yggdrasil",
+        "example:api": "node example-api-url.js",
+        "example:api:basic": "node example-api-url.js basic",
+        "example:api:custom": "node example-api-url.js custom",
+        "example:api:errors": "node example-api-url.js errors",
+        "cli": "node cli.js"
+    }
+}
